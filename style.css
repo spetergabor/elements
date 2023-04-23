@@ -8,6 +8,20 @@
 
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0%;
+    padding-inline-end: 40px;
+    background: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
 .navbar a.active,
 .navbar a:hover {
     background: linear-gradient(45deg, #f06, #3cf );
